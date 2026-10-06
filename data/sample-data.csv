@@ -1,0 +1,9 @@
+id,title,brand,category,price,originalPrice,rating,reviewCount,isPrime,inStock
+prod-001,Sony WH-1000XM5 Wireless Headphones,Sony,audio,348.00,399.99,4.6,14280,true,true
+prod-002,Apple MacBook Air 15-inch M3,Apple,computers,1499.00,1699.00,4.8,8940,true,true
+prod-003,Kindle Paperwhite 16GB,Amazon,books,149.99,169.99,4.7,38100,true,true
+prod-004,Sony PlayStation 5 Slim Digital,Sony,gaming,449.99,499.99,4.9,21540,true,true
+prod-005,Breville Barista Touch Espresso Machine,Breville,home,999.95,1199.95,4.5,5120,true,true
+prod-006,Bose QuietComfort Ultra Earbuds,Bose,audio,249.00,299.00,4.4,7320,true,true
+prod-007,Logitech MX Master 3S Mouse,Logitech,computers,99.99,109.99,4.8,18900,true,true
+prod-008,Samsung 49 Odyssey OLED G9,Samsung,gaming,1199.99,1799.99,4.6,3410,true,true

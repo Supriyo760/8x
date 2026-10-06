@@ -1,0 +1,24 @@
+{
+  "testCase_orderCalculation": {
+    "input": {
+      "items": [
+        { "productId": "prod-001", "quantity": 1, "unitPrice": 348.00 },
+        { "productId": "prod-007", "quantity": 2, "unitPrice": 99.99 }
+      ],
+      "taxRate": 0.08,
+      "deliverySpeed": "prime_two_day"
+    },
+    "expectedOutput": {
+      "subtotal": 547.98,
+      "shipping": 0.00,
+      "tax": 43.84,
+      "total": 591.82,
+      "freeShippingQualified": true
+    }
+  },
+  "testCase_orderConfirmation": {
+    "orderIdFormatRegex": "^11[0-9]-[0-9]{7}-[0-9]{7}$",
+    "sampleGeneratedId": "114-8924102-4820194",
+    "expectedStatusSequence": ["ordered", "processing", "out_for_delivery", "delivered"]
+  }
+}

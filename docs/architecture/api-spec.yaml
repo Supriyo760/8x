@@ -1,0 +1,205 @@
+openapi: 3.0.3
+info:
+  title: Amazon Re-imagined REST API Spec
+  description: OpenAPI 3.0 specification for Amazon Re-imagined catalog, search, cart, and order endpoints.
+  version: 1.0.0
+servers:
+  - url: https://api.amazon-reimagined.internal/v1
+    description: Production API Server
+paths:
+  /products:
+    get:
+      summary: Search and filter products
+      parameters:
+        - name: query
+          in: query
+          schema:
+            type: string
+          description: Keyword search term
+        - name: category
+          in: query
+          schema:
+            type: string
+          description: Category department slug
+        - name: isPrime
+          in: query
+          schema:
+            type: boolean
+          description: Filter by Prime eligibility
+        - name: minRating
+          in: query
+          schema:
+            type: number
+            minimum: 1
+            maximum: 5
+        - name: minPrice
+          in: query
+          schema:
+            type: number
+        - name: maxPrice
+          in: query
+          schema:
+            type: number
+        - name: sortBy
+          in: query
+          schema:
+            type: string
+            enum: [featured, price_asc, price_desc, rating, newest]
+      responses:
+        '200':
+          description: Paginated product list
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  total:
+                    type: integer
+                  products:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Product'
+
+  /products/{id}:
+    get:
+      summary: Retrieve single product detail by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Full product detail including variants and AI Review digest
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+        '404':
+          description: Product not found
+
+  /orders:
+    post:
+      summary: Create new order (checkout submission)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [items, shippingAddress, deliverySpeed]
+              properties:
+                items:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      productId:
+                        type: string
+                      variantId:
+                        type: string
+                      quantity:
+                        type: integer
+                shippingAddress:
+                  $ref: '#/components/schemas/ShippingAddress'
+                deliverySpeed:
+                  type: string
+                  enum: [prime_two_day, next_day, standard]
+      responses:
+        '201':
+          description: Order created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Order'
+
+  /orders/{id}:
+    get:
+      summary: Retrieve order tracking details
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Order details with live tracking timeline
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Order'
+
+components:
+  schemas:
+    Product:
+      type: object
+      properties:
+        id:
+          type: string
+        title:
+          type: string
+        brand:
+          type: string
+        category:
+          type: string
+        price:
+          type: number
+        rating:
+          type: number
+        reviewCount:
+          type: integer
+        isPrime:
+          type: boolean
+        inStock:
+          type: boolean
+        images:
+          type: array
+          items:
+            type: string
+        aiReviewDigest:
+          type: object
+          properties:
+            verdict:
+              type: string
+            pros:
+              type: array
+              items:
+                type: string
+            cons:
+              type: array
+              items:
+                type: string
+            bestFor:
+              type: string
+
+    ShippingAddress:
+      type: object
+      properties:
+        fullName:
+          type: string
+        street:
+          type: string
+        city:
+          type: string
+        state:
+          type: string
+        zipCode:
+          type: string
+
+    Order:
+      type: object
+      properties:
+        id:
+          type: string
+        trackingNumber:
+          type: string
+        status:
+          type: string
+          enum: [ordered, processing, out_for_delivery, delivered, cancelled]
+        total:
+          type: number
+        estimatedDeliveryDate:
+          type: string
+          format: date

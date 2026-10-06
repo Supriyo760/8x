@@ -1,0 +1,525 @@
+[
+  {
+    "id": "prod-001",
+    "title": "Sony WH-1000XM5 Wireless Industry Leading Noise Canceling Headphones",
+    "brand": "Sony",
+    "category": "audio",
+    "price": 348.00,
+    "originalPrice": 399.99,
+    "discountPercentage": 13,
+    "rating": 4.6,
+    "reviewCount": 14280,
+    "isPrime": true,
+    "isBestSeller": true,
+    "isAmazonChoice": false,
+    "inStock": true,
+    "stockCount": 42,
+    "deliveryDays": 1,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Two processors and 8 microphones for unprecedented noise cancellation. Super comfortable, lightweight design with soft fit leather.",
+    "features": [
+      "Industry-leading noise cancellation with Auto NC Optimizer",
+      "Magnificent Sound, engineered to perfection with the Integrated Processor V1",
+      "Crystal clear hands-free calling with 4 beamforming microphones",
+      "Up to 30-hour battery life with quick charging (3 min charge for 3 hours of playback)"
+    ],
+    "specs": {
+      "Battery Life": "30 Hours",
+      "Connectivity": "Bluetooth 5.2",
+      "Weight": "250g",
+      "Fast Charging": "3 min = 3 hours",
+      "Microphones": "8 Microphones"
+    },
+    "variants": [
+      {
+        "id": "var-001-blk",
+        "type": "color",
+        "label": "Black",
+        "value": "#1A1A1A",
+        "priceModifier": 0.00
+      },
+      {
+        "id": "var-001-sil",
+        "type": "color",
+        "label": "Silver",
+        "value": "#E5E5E5",
+        "priceModifier": 0.00
+      },
+      {
+        "id": "var-001-blu",
+        "type": "color",
+        "label": "Midnight Blue",
+        "value": "#1B2A4A",
+        "priceModifier": 10.00
+      }
+    ],
+    "aiReviewDigest": {
+      "verdict": "The benchmark for modern active noise cancellation and call clarity with all-day comfort.",
+      "pros": [
+        "Unrivaled noise reduction on planes, trains, and offices",
+        "Featherlight headband eliminates crown pressure points",
+        "Best-in-class microphone background suppression"
+      ],
+      "cons": [
+        "Non-folding hinges result in a slightly bulkier travel case",
+        "Earcups can feel warm during strenuous workouts"
+      ],
+      "bestFor": "Frequent flyers, remote workers, and daily transit commuters."
+    }
+  },
+  {
+    "id": "prod-002",
+    "title": "Apple MacBook Air 15-inch M3 Chip (16GB Unified Memory, 512GB SSD)",
+    "brand": "Apple",
+    "category": "computers",
+    "price": 1499.00,
+    "originalPrice": 1699.00,
+    "discountPercentage": 12,
+    "rating": 4.8,
+    "reviewCount": 8940,
+    "isPrime": true,
+    "isBestSeller": false,
+    "isAmazonChoice": true,
+    "inStock": true,
+    "stockCount": 18,
+    "deliveryDays": 1,
+    "images": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Impossibly thin and wicked fast with M3 power. Liquid Retina display supports 1 billion colors. MagSafe charging and two Thunderbolt ports.",
+    "features": [
+      "Blazing fast 8-core CPU and 10-core GPU built on 3nm architecture",
+      "Up to 18 hours of real-world battery life",
+      "Spacious 15.3-inch Liquid Retina display with 500 nits brightness",
+      "Six-speaker sound system with Spatial Audio"
+    ],
+    "specs": {
+      "Processor": "Apple M3 (8-core CPU, 10-core GPU)",
+      "Memory": "16GB Unified Memory",
+      "Storage": "512GB NVMe SSD",
+      "Display": "15.3-inch Liquid Retina (2880 x 1864)",
+      "Weight": "3.3 lbs (1.51 kg)"
+    },
+    "variants": [
+      {
+        "id": "var-002-mid",
+        "type": "color",
+        "label": "Midnight",
+        "value": "#1C2430",
+        "priceModifier": 0.00
+      },
+      {
+        "id": "var-002-stg",
+        "type": "color",
+        "label": "Starlight",
+        "value": "#EFE8DC",
+        "priceModifier": 0.00
+      },
+      {
+        "id": "var-002-spg",
+        "type": "color",
+        "label": "Space Gray",
+        "value": "#7B7E83",
+        "priceModifier": 0.00
+      }
+    ],
+    "aiReviewDigest": {
+      "verdict": "The ultimate everyday laptop combining large screen productivity, silent fanless thermals, and all-day endurance.",
+      "pros": [
+        "Silent fanless operation with zero heat under normal workflows",
+        "Outstanding 16+ hour battery life easily outlasts workdays",
+        "Crisp, vibrant 15.3-inch display with rich contrast"
+      ],
+      "cons": [
+        "Limited to two Thunderbolt/USB4 ports on one side",
+        "Midnight finish still shows minor palm oils"
+      ],
+      "bestFor": "Professionals, software engineers, writers, and college students."
+    }
+  },
+  {
+    "id": "prod-003",
+    "title": "Kindle Paperwhite (16 GB) – Now with 6.8\" display and adjustable warm light",
+    "brand": "Amazon",
+    "category": "books",
+    "price": 149.99,
+    "originalPrice": 169.99,
+    "discountPercentage": 12,
+    "rating": 4.7,
+    "reviewCount": 38100,
+    "isPrime": true,
+    "isBestSeller": true,
+    "isAmazonChoice": true,
+    "inStock": true,
+    "stockCount": 120,
+    "deliveryDays": 1,
+    "images": [
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Now with a 6.8” display, thinner borders, adjustable warm light, up to 10 weeks of battery life, and 20% faster page turns.",
+    "features": [
+      "Glare-free 300 ppi display that reads like real paper even in bright sunlight",
+      "Adjustable warm light to shift screen shade from white to amber",
+      "Waterproof (IPX8) for peace of mind at the beach or in the bath",
+      "A single USB-C charge lasts up to 10 weeks"
+    ],
+    "specs": {
+      "Display": "6.8-inch Paperwhite E-Ink (300 ppi)",
+      "Battery Life": "Up to 10 Weeks",
+      "Storage": "16 GB (thousands of books)",
+      "Waterproof": "IPX8 (2m fresh water for 60 min)",
+      "Weight": "205g"
+    },
+    "variants": [
+      {
+        "id": "var-003-blk",
+        "type": "color",
+        "label": "Black",
+        "value": "#000000",
+        "priceModifier": 0.00
+      },
+      {
+        "id": "var-003-dgn",
+        "type": "color",
+        "label": "Agave Green",
+        "value": "#6B8E7D",
+        "priceModifier": 10.00
+      },
+      {
+        "id": "var-003-blu",
+        "type": "color",
+        "label": "Denim",
+        "value": "#3B5998",
+        "priceModifier": 10.00
+      }
+    ],
+    "aiReviewDigest": {
+      "verdict": "The undisputed gold standard for digital reading with unbeatable battery life and outdoor clarity.",
+      "pros": [
+        "Warm backlight eliminates late-night eye fatigue",
+        "Weeks of reading on a single USB-C charge",
+        "IPX8 waterproofing makes poolside reading worry-free"
+      ],
+      "cons": [
+        "PDF navigation remains sluggish compared to iPads",
+        "No cellular option on this model (Wi-Fi only)"
+      ],
+      "bestFor": "Avid book readers, travelers, and nighttime readers."
+    }
+  },
+  {
+    "id": "prod-004",
+    "title": "Sony PlayStation 5 Slim Digital Edition Gaming Console (1TB SSD)",
+    "brand": "Sony",
+    "category": "gaming",
+    "price": 449.99,
+    "originalPrice": 499.99,
+    "discountPercentage": 10,
+    "rating": 4.9,
+    "reviewCount": 21540,
+    "isPrime": true,
+    "isBestSeller": true,
+    "isAmazonChoice": false,
+    "inStock": true,
+    "stockCount": 25,
+    "deliveryDays": 1,
+    "images": [
+      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with haptic feedback, adaptive triggers, and 3D Audio.",
+    "features": [
+      "Slim Design with 1TB SSD storage ready out of the box",
+      "Ray Tracing support with up to 120fps with 120Hz output on 4K displays",
+      "DualSense Wireless Controller with transformative haptic feedback",
+      "Tempest 3D AudioTech support"
+    ],
+    "specs": {
+      "Storage": "1TB Custom NVMe SSD",
+      "Resolution": "Up to 4K 120Hz, 8K output",
+      "Audio": "Tempest 3D AudioTech",
+      "I/O": "USB Type-C (x2), HDMI 2.1"
+    },
+    "variants": [
+      {
+        "id": "var-004-dig",
+        "type": "storage",
+        "label": "Digital Edition",
+        "value": "digital",
+        "priceModifier": 0.00
+      },
+      {
+        "id": "var-004-dsc",
+        "type": "storage",
+        "label": "Disc Edition",
+        "value": "disc",
+        "priceModifier": 50.00
+      }
+    ],
+    "aiReviewDigest": {
+      "verdict": "Unrivaled gaming performance with generational exclusives and game-changing DualSense haptic feedback.",
+      "pros": [
+        "Instant loading times across AAA games",
+        "DualSense adaptive triggers deliver unmatched tactical immersion",
+        "Slimmer chassis occupies 30% less entertainment center space"
+      ],
+      "cons": [
+        "Internal storage fills up fast with modern 100GB+ titles",
+        "Stand sold separately on the slim variant"
+      ],
+      "bestFor": "Gamers seeking 4K 60/120fps fidelity and blockbuster exclusive experiences."
+    }
+  },
+  {
+    "id": "prod-005",
+    "title": "Breville Barista Touch Espresso Machine with Touch Screen (Brushed Stainless)",
+    "brand": "Breville",
+    "category": "home",
+    "price": 999.95,
+    "originalPrice": 1199.95,
+    "discountPercentage": 17,
+    "rating": 4.5,
+    "reviewCount": 5120,
+    "isPrime": true,
+    "isBestSeller": false,
+    "isAmazonChoice": true,
+    "inStock": true,
+    "stockCount": 9,
+    "deliveryDays": 2,
+    "images": [
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Commercial performance made easy. Touch screen display simplifies how to make your favorite cafe coffee in 3 easy steps - Grind, Brew and Milk.",
+    "features": [
+      "Automated touchscreen menu with 5 pre-programmed cafe favorites",
+      "ThermoJet heating system reaches optimal temperature in 3 seconds",
+      "Automatic microfoam milk texturing with hands-free wand",
+      "Integrated conical burr grinder with 30 precise grind settings"
+    ],
+    "specs": {
+      "Water Tank": "67 fl oz (2L)",
+      "Heating System": "ThermoJet (3 second heat up)",
+      "Grinder": "Stainless Steel Conical Burrs",
+      "Pressure": "15 Bar Italian Pump"
+    },
+    "variants": [
+      {
+        "id": "var-005-ss",
+        "type": "color",
+        "label": "Stainless Steel",
+        "value": "#D1D5DB",
+        "priceModifier": 0.00
+      },
+      {
+        "id": "var-005-bt",
+        "type": "color",
+        "label": "Black Truffle",
+        "value": "#1F2937",
+        "priceModifier": 50.00
+      }
+    ],
+    "aiReviewDigest": {
+      "verdict": "Brings authentic third-wave specialty cafe espresso home with zero barista learning curve.",
+      "pros": [
+        "Ready in 3 seconds flat with instant ThermoJet technology",
+        "Silk microfoam milk texture automatically steamed to temperature",
+        "Custom coffee profile saving for household members"
+      ],
+      "cons": [
+        "Requires weekly cleaning cycle routine",
+        "Premium price investment for home kitchen"
+      ],
+      "bestFor": "Coffee aficionados, latte art enthusiasts, and busy morning professionals."
+    }
+  },
+  {
+    "id": "prod-006",
+    "title": "Bose QuietComfort Ultra Wireless Earbuds with Spatial Audio",
+    "brand": "Bose",
+    "category": "audio",
+    "price": 249.00,
+    "originalPrice": 299.00,
+    "discountPercentage": 17,
+    "rating": 4.4,
+    "reviewCount": 7320,
+    "isPrime": true,
+    "isBestSeller": false,
+    "isAmazonChoice": true,
+    "inStock": true,
+    "stockCount": 35,
+    "deliveryDays": 1,
+    "images": [
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Groundbreaking spatialized audio for more immersive listening. World-class noise cancellation that is quieter than ever before. CustomTune technology.",
+    "features": [
+      "Bose Immersive Audio pushes sound boundaries for hyper-realistic listening",
+      "CustomTune technology shapes sound specifically to your ear canal",
+      "Nine combinations of eartips and stability bands ensure secure seal",
+      "Up to 6 hours of listening time (up to 24 hours total with case)"
+    ],
+    "specs": {
+      "Battery Life": "6 Hours (24 with Case)",
+      "Water Resistance": "IPX4 Sweat Resistant",
+      "Bluetooth": "5.3 with Snapdragon Sound",
+      "Spatial Audio": "Bose Immersive Audio Mode"
+    },
+    "variants": [
+      {
+        "id": "var-006-blk",
+        "type": "color",
+        "label": "Black",
+        "value": "#18181B",
+        "priceModifier": 0.00
+      },
+      {
+        "id": "var-006-wht",
+        "type": "color",
+        "label": "White Smoke",
+        "value": "#F4F4F5",
+        "priceModifier": 0.00
+      }
+    ],
+    "aiReviewDigest": {
+      "verdict": "The pinnacle of active noise reduction in an in-ear form factor, silencing loud commutes with ease.",
+      "pros": [
+        "Unrivaled low-frequency rumble cancellation",
+        "Stability fin design stays locked in place during sprints",
+        "Natural transparency mode without robotic hiss"
+      ],
+      "cons": [
+        "Case does not support Qi wireless charging without optional cover",
+        "Microphone struggles in heavy crosswinds"
+      ],
+      "bestFor": "Gym goers, subway commuters, and open-office workers."
+    }
+  },
+  {
+    "id": "prod-007",
+    "title": "Logitech MX Master 3S Wireless Performance Mouse, Quiet Clicks, 8K DPI",
+    "brand": "Logitech",
+    "category": "computers",
+    "price": 99.99,
+    "originalPrice": 109.99,
+    "discountPercentage": 9,
+    "rating": 4.8,
+    "reviewCount": 18900,
+    "isPrime": true,
+    "isBestSeller": true,
+    "isAmazonChoice": true,
+    "inStock": true,
+    "stockCount": 85,
+    "deliveryDays": 1,
+    "images": [
+      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Quiet clicks deliver a satisfying soft feel with 90% less noise. 8K DPI track-on-glass sensor. MagSpeed electromagnetic scrolling.",
+    "features": [
+      "Quiet Click buttons eliminate office and Zoom meeting click noise",
+      "MagSpeed scroll wheel scrolls 1,000 lines in 1 second",
+      "Ergonomic silhouette crafted to support palm and wrist naturally",
+      "Pair with up to 3 computers and switch effortlessly across macOS and Windows"
+    ],
+    "specs": {
+      "DPI": "200 to 8000 DPI (Track on Glass)",
+      "Battery": "Up to 70 days per full charge",
+      "Connectivity": "Bluetooth LE + Logi Bolt USB",
+      "Buttons": "7 customizable buttons"
+    },
+    "variants": [
+      {
+        "id": "var-007-blk",
+        "type": "color",
+        "label": "Graphite",
+        "value": "#27272A",
+        "priceModifier": 0.00
+      },
+      {
+        "id": "var-007-gry",
+        "type": "color",
+        "label": "Pale Gray",
+        "value": "#E4E4E7",
+        "priceModifier": 0.00
+      }
+    ],
+    "aiReviewDigest": {
+      "verdict": "The undisputed king of productivity mice; once you use the MagSpeed electromagnetic scroll wheel, there is no going back.",
+      "pros": [
+        "Incredibly silent tactile clicks",
+        "Hyper-fast frictionless scrolling fly-wheel",
+        "Comfortable ergonomic thumb rest with gesture button"
+      ],
+      "cons": [
+        "Right-handed only silhouette (no left-hand variant)",
+        "Too heavy for competitive fast-twitch gaming"
+      ],
+      "bestFor": "Software engineers, financial analysts, designers, and spreadsheet power users."
+    }
+  },
+  {
+    "id": "prod-008",
+    "title": "Samsung 49\" Odyssey OLED G9 Curved Smart Gaming Monitor (240Hz, 0.03ms)",
+    "brand": "Samsung",
+    "category": "gaming",
+    "price": 1199.99,
+    "originalPrice": 1799.99,
+    "discountPercentage": 33,
+    "rating": 4.6,
+    "reviewCount": 3410,
+    "isPrime": true,
+    "isBestSeller": false,
+    "isAmazonChoice": true,
+    "inStock": true,
+    "stockCount": 6,
+    "deliveryDays": 2,
+    "images": [
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "49-inch Dual QHD 1800R curved display powered by Neo Quantum Processor Pro. Infinite contrast with OLED deep blacks and blazing 240Hz refresh rate.",
+    "features": [
+      "OLED panel powered by Quantum Dot technology for pure color fidelity",
+      "0.03ms response time and 240Hz refresh rate for blur-free gaming",
+      "Dual QHD (5120 x 1440) 32:9 super ultra-wide aspect ratio replaces dual monitors",
+      "DisplayHDR True Black 400 for stunning dynamic range"
+    ],
+    "specs": {
+      "Screen Size": "49 inches (32:9 Aspect Ratio)",
+      "Resolution": "Dual QHD (5120 x 1440)",
+      "Refresh Rate": "240Hz",
+      "Response Time": "0.03ms (GtG)",
+      "Curvature": "1800R"
+    },
+    "variants": [
+      {
+        "id": "var-008-oled",
+        "type": "size",
+        "label": "49\" OLED 240Hz",
+        "value": "49-oled",
+        "priceModifier": 0.00
+      }
+    ],
+    "aiReviewDigest": {
+      "verdict": "The ultimate gaming and ultra-wide productivity spectacle with jaw-dropping OLED contrast and buttery 240Hz motion.",
+      "pros": [
+        "Flawless inky blacks and vibrant HDR color pop",
+        "Replaces two 27-inch monitors with zero bezel interruption",
+        "0.03ms pixel response eliminates ghosting entirely"
+      ],
+      "cons": [
+        "Requires deep desk depth and powerful modern GPU",
+        "Micro-HDMI and Mini-DisplayPort cables can feel finicky"
+      ],
+      "bestFor": "Simulation racers, flight sim fans, and multitasking power developers."
+    }
+  }
+]
