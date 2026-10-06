@@ -4,14 +4,14 @@
     "Stop": [
       {
         "type": "command",
-        "command": "python capture.py --hook",
+        "command": "python .agents/capture.py --hook",
         "timeout": 30
       }
     ],
     "PostInvocation": [
       {
         "type": "command",
-        "command": "python capture.py --hook",
+        "command": "python .agents/capture.py --hook",
         "timeout": 30
       }
     ]

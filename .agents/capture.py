@@ -15,18 +15,29 @@ MODEL_NAME = "Gemini 3.8 Flash (High)"
 TOOL_NAME = "antigravity-ide"
 PROJECT_NAME = "amazon-clone"
 
+def sanitize_secrets(text: str) -> str:
+    if not text:
+        return ""
+    text = re.sub(r'AQ\.[A-Za-z0-9_\-\.]+', '[REDACTED_GEMINI_KEY]', text)
+    text = re.sub(r'AIzaSy[A-Za-z0-9_\-\.]*', '[REDACTED_GEMINI_KEY]', text)
+    text = re.sub(r'Ab8RN6[A-Za-z0-9_\-]+', '[REDACTED_GEMINI_KEY]', text)
+    text = re.sub(r'ab922e[A-Za-z0-9_\-]+', '[REDACTED_RAPIDAPI_KEY]', text)
+    text = re.sub(r'pk_test_[A-Za-z0-9_\$\.\-]+', '[REDACTED_TEST_KEY]', text)
+    text = re.sub(r'eyJhbGciOi[A-Za-z0-9_\-\.]+', '[REDACTED_JWT]', text)
+    return text
+
 def clean_prompt(raw_text: str) -> str:
     if not raw_text:
         return ""
     m = re.search(r"<USER_REQUEST>\s*(.*?)\s*</USER_REQUEST>", raw_text, re.DOTALL)
     if m:
-        return m.group(1).strip()
-    return raw_text.strip()
+        return sanitize_secrets(m.group(1).strip())
+    return sanitize_secrets(raw_text.strip())
 
 def clean_response(raw_text: str) -> str:
     if not raw_text:
         return ""
-    return raw_text.strip()
+    return sanitize_secrets(raw_text.strip())
 
 def format_timestamp(ts_str: str) -> str:
     if not ts_str:
@@ -175,7 +186,8 @@ def process_session(session_id: str):
             lines.append("")
 
     LOGS_DIR.mkdir(parents=True, exist_ok=True)
-    target_file.write_text("\n".join(lines), encoding="utf-8")
+    full_output = sanitize_secrets("\n".join(lines))
+    target_file.write_text(full_output, encoding="utf-8")
     return target_file
 
 def run_once():
